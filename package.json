@@ -1,0 +1,21 @@
+{
+  "name": "production-project-server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Michael Yakovlev",
+  "description": "Server for big-project",
+  "keywords": [
+    "server"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "start": "node ./index.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "json-server": "^0.17.3"
+  },
+  "devDependencies": {
+    "prettier": "^3.0.0"
+  }
+}
